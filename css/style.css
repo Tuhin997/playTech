@@ -1,0 +1,118 @@
+body{
+    background:#333333 ;
+    color: #fff;
+    font-family: sans-serif;
+}
+.navbar{
+    border-bottom: 3px solid #1073a5 ;
+    background: #2c2e2e;
+    opacity: 0.7;
+}
+#home-section{
+    background:url(../img/dftg.jpeg)no-repeat center top ;
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-section .home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#home-section .dark-overlay{
+    background: rgba(0,0, 0,0.7);
+    min-height: 700px;
+}
+#home-section .fa-solid{
+    color: #870808;
+    background-color: rgba(255, 255, 255, 0.422);
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+   margin-right: 7px;
+}
+#tt{
+    background-color: linear-gradient(to right,#ff105f,#ffad06);
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  
+}
+.zz{
+    height: 25px;
+    width: 25px;
+    align-content: center;
+}
+
+}
+#review-main-section .fa-solid{
+    color: #870808;
+    background-color: rgba(154, 240, 104, 0.422);
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+   margin-right: 7px;
+}
+.pp{
+    height: 50px;
+    width: 70;
+   
+    padding-left: 4px;
+    margin-bottom: 40px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    
+}
+.controls{
+    width: 40%;
+    margin: 55px auto;
+    display: flex;
+    justify-content: center;
+}
+.control{
+    margin: 0 15px;
+    padding: 15px 20px;
+}
+#img{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.mix{
+    height: 250px;
+    margin: 10px;
+}
+#bac{
+    background: brown;
+    
+}
+#btn{
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    color: aliceblue;
+
+    box-shadow: 5px 5px 20px black;
+    height: 80px;
+    
+   
+}
+
+.card{
+    box-shadow: 5px 5px 20px black;
+    margin: 7px;
+    
+}
+.card:hover{
+    
+    height: 250px;
+    bottom: 25px;
+   
+    transform: scale(1.1) rotate(-3deg);
+}
+.card:hover .btn{
+   
+}
